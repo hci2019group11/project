@@ -17,87 +17,95 @@
         #thongtin {
             display: flex;
         }
-
+        
         #nav {
             background-color: #d9edf7;
         }
-
+        
         .carousel-inner img {
             width: 100%;
             height: 100%;
         }
+        
+        #info {
+            background-color: #2698D6;
+        }
+        
+        #ti {
+            color: black;
+        }
     </style>
     <img src="https://familyhospital.vn/wp-content/themes/Newspaper-child/images/BANNER.jpg" style="width:100%;">
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid"style="padding-right: 0px; padding-left:0px;">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <nav class="navbar navbar-default" id="info">
+        <div class="container-fluid" style="padding-right: 0px; padding-left:0px;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><i class="fas fa-home" style="color: #31708f;"></i></a>
+                <a class="navbar-brand" href="index.html"><i class="fas fa-home" style="color: #31708f;"></i></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Giới thiệu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tổng quan</a></li>
+                            <li><a href="#">Sơ đồ tổ chức</a></li>
+                            <li><a href="bangiamdoc.html">Ban giám đốc</a></li>
+                            <li><a href="#">Bác sĩ</a></li>
+                            <li><a href="#">Phòng chức năng</a></li>
+                            <li><a href="#">Khoa lâm sàng</a></li>
+                            <li><a href="#">Khoa cận lâm sàng</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khám chữa bệnh <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tìm bác sĩ</a></li>
+                            <li><a href="lichkham.html">Lịch khám bệnh</a></li>
+                            <li><a href="#">Lịch công tác</a></li>
+                            <li><a href="#">Thông tin khám bệnh ngoại trú</a></li>
+                            <li><a href="#">Quy trình</a></li>
+                            <li><a href="#">Bảng giá thu lệ phí</a></li>
+                            <li><a href="#">Danh mục kỹ thuật</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hoạt động <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Chuyên môn</a></li>
+                            <li><a href="#">Đào tạo</a></li>
+                            <li><a href="#">Nghiên cứu khoa học</a></li>
+                            <li><a href="#">Thông tin thuốc - Dược lâm sàng</a></li>
+                            <li><a href="#">Quản lí chất lượng, an toàn người bệnh</a></li>
+                            <li><a href="trian.html">Tri ân</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hỏi đáp <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Hỏi đáp sức khỏe</a></li>
+                            <li><a href="trogiup.html">Đặt câu hỏi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Giới thiệu <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Tổng quan</a></li>
-                <li><a href="#">Sơ đồ tổ chức</a></li>
-                <li><a href="bangiamdoc.html">Ban giám đốc</a></li>
-                <li><a href="#">Bác sĩ</a></li>
-                <li><a href="#">Phòng chức năng</a></li>
-                <li><a href="#">Khoa lâm sàng</a></li>
-                <li><a href="#">Khoa cận lâm sàng</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khám chữa bệnh <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Tìm bác sĩ</a></li>
-                <li><a href="lichkham.html">Lịch khám bệnh</a></li>
-                <li><a href="#">Lịch công tác</a></li>
-                <li><a href="#">Thông tin khám bệnh ngoại trú</a></li>
-                <li><a href="#">Quy trình</a></li>
-                <li><a href="#">Bảng giá thu lệ phí</a></li>
-                <li><a href="#">Danh mục kỹ thuật</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Tin tức</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hoạt động <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Chuyên môn</a></li>
-                <li><a href="#">Đào tạo</a></li>
-                <li><a href="#">Nghiên cứu khoa học</a></li>
-                <li><a href="#">Thông tin thuốc - Dược lâm sàng</a></li>
-                <li><a href="#">Quản lí chất lượng, an toàn người bệnh</a></li>
-                <li><a href="trian.html">Tri ân</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hỏi đáp <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Hỏi đáp sức khỏe</a></li>
-                <li><a href="trogiup.html">Đặt câu hỏi</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Liên hệ</a></li>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-      <!--/.container-fluid -->
+        <!--/.container-fluid -->
     </nav>
 
     <div class="container">
         <div clas=row>
             <div class="col-lg-9">
-                <div class="alert alert-info">
-                    <strong>BÀI VIẾT MỚI NHẤT</strong>
+                <div class="alert alert-info" id="info">
+                    <strong id="ti">BÀI VIẾT MỚI NHẤT</strong>
                 </div>
 
                 <div class="col-lg-6">
@@ -107,7 +115,6 @@
                     <a href="#">
                         <h4 class="post-title">HỘI NGHỊ KHOA HỌC KỸ THUẬT BỆNH VIỆN ĐA KHOA GROUP 11 NĂM 2019</h4>
                     </a>
-                    <p font size="3" ;>Tiếp nối thành công của hội nghị khoa học kỹ thuật năm 2018 và yêu cầu thực tiễn của bệnh viện. Hội nghị khoa học kỹ thuật sẽ được tổ chứcvào hai ngày 14 và 15 tháng 11 năm 2019...</p>
 
                     <div class="picture3">
                         <img src="http://bvndgiadinh.org.vn/content/uploads/018dde36-1d0d-4118-84c8-a7fd008ef020/1a23dff9-c796-4e01-a868-aae300fc7c65_1.jpg?width=360&crop=0,0,360,250" height="200px" width="380px">
@@ -117,19 +124,19 @@
                     </a>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-6">
 
                     <div class="picture2">
                         <img src="http://bvndgiadinh.org.vn/content/uploads/018dde36-1d0d-4118-84c8-a7fd008ef020/488ce67f-dafc-42a9-91e1-aae300f7fab9_poster-2.jpg?width=360&crop=0,0,360,250" height="200px" width="380px">
                     </div>
                     <a href="#">
-                        <h5>Hội thi tay nghề bác sĩ giỏi năm 2019</h5>
+                        <h4>HỘI THI TAY NGHỀ BÁC SĨ GIỎI NĂM 2019</h4>
                     </a>
 
                     <div class="picture3">
                         <img src="http://bvndgiadinh.org.vn/content/uploads/018dde36-1d0d-4118-84c8-a7fd008ef020/7d8ab27d-ea05-4354-b1ed-aae300b54942_poster-2.jpg?width=360&crop=0,0,360,250" height="200px" width="380px">
                         <a href="#">
-                            <h5>Tầm soát ung thư ở người cao tuổi</h5>
+                            <h4>HỘI NGHỊ VỀ TẦM SOAT UNG THƯ NGƯỜI CAO TUỔI</h4>
                         </a>
                     </div>
 
@@ -140,8 +147,8 @@
 
 
             <div class="col-lg-3">
-                <div class="alert alert-info">
-                    <strong>THÔNG TIN TỪ SỞ Y TẾ</strong>
+                <div class="alert alert-info" id="info">
+                    <strong id="ti">THÔNG TIN TỪ SỞ Y TẾ</strong>
                 </div>
                 <h4>VĂN BẢN</h4>
                 <a href="#">V/v triển khai Hướng dẫn chẩn đoán, điều trị bệnh viêm gan vi rút B của Bộ Y tế</a><br>
@@ -168,8 +175,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
-                <div class="alert alert-info">
-                    <strong>TIN TỨC SỰ KIỆN</strong>
+                <div class="alert alert-info" id="info">
+                    <strong id="ti">TIN TỨC SỰ KIỆN</strong>
                 </div>
 
 
@@ -224,8 +231,8 @@
 
                 <div class="row">
 
-                    <div class="alert alert-info">
-                        <strong>HOẠT ĐỘNG CỦA BỆNH VIỆN</strong>
+                    <div class="alert alert-info" id="info">
+                        <strong id="ti">HOẠT ĐỘNG CỦA BỆNH VIỆN</strong>
                     </div>
 
 
@@ -248,9 +255,9 @@
 
                 </div>
 
-                <div class="row"style="padding-bottom:20px;">
-                    <div class="alert alert-info">
-                        <strong>THÔNG TIN Y HỌC</strong>
+                <div class="row" style="padding-bottom:20px;">
+                    <div class="alert alert-info" id="info">
+                        <strong id="ti">THÔNG TIN Y HỌC</strong>
                     </div>
 
                     <div class="col-lg-5">
@@ -261,7 +268,8 @@
                         <a href="#">
                             <h4>Mổ và chẩn đoán điều trị vô sinh</h4>
                         </a>
-                        <p>Mổ nội soi chẩn đoán và điều trị vô sinh vừa là phương tiện để chẩn đoán vừa là phương thức điều trị cho bệnh nhân vô sinh. Mổ nội soi được chỉ định ở những bệnh nhân có bất thường về vòi trứng buồng tử cung trên siêu âm hay chụp X quang tử cung vòi trứng (HSG), nghi ngờ polyp hay bất thường buồng tử cung, thất bại làm tổ nhiều lần chưa rõ nguyên nhân (chuyển phôi ít nhất 3 lần với 4 phôi tốt) …</p>
+                        <p>Mổ nội soi chẩn đoán và điều trị vô sinh vừa là phương tiện để chẩn đoán vừa là phương thức điều trị cho bệnh nhân vô sinh. Mổ nội soi được chỉ định ở những bệnh nhân có bất thường về vòi trứng buồng tử cung trên siêu âm hay chụp
+                            X quang tử cung vòi trứng (HSG), nghi ngờ polyp hay bất thường buồng tử cung, thất bại làm tổ nhiều lần chưa rõ nguyên nhân (chuyển phôi ít nhất 3 lần với 4 phôi tốt) …</p>
                     </div>
 
                 </div>
@@ -272,8 +280,8 @@
             <div class="col-lg-3">
                 <div class="row">
                     <div class="col-lg-11">
-                        <div class="alert alert-info">
-                            <strong>ẤN PHẨM NỘI BỘ</strong>
+                        <div class="alert alert-info" id="info">
+                            <strong id="ti">ẤN PHẨM NỘI BỘ</strong>
                         </div>
                     </div>
 
@@ -292,8 +300,8 @@
                 <div class="row">
 
                     <div class="col-lg-11">
-                        <div class="alert alert-info">
-                            <strong>LIÊN KẾT</strong>
+                        <div class="alert alert-info" id="info">
+                            <strong id="ti">LIÊN KẾT</strong>
                         </div>
                     </div>
 
@@ -314,38 +322,52 @@
             </div>
         </div>
     </div>
-  <footer class="footer-body">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-4" >
-        <h4 style="text-decoration: none !important;">BỆNH VIỆN<br><br>
-        LIÊN HỆ: 090909090</h4>
-        <div>Địa chỉ: Số 1, Nơ Trang Long, TPHCM</div><hr>
-        <div>Gmail: familyhospital@gmail.com</div><hr>
-        <div>Số điện thoại: 090909090</div><hr>
-      </div>
-      <div class="col-md-4">
-        <h4>GIỚI THIỆU</h4><hr>
-        <div><i class="fas fa-caret-right"></i> TỔNG QUAN</div><hr>
-        <div><i class="fas fa-caret-right"></i> PHÒNG CHỨC NĂNG</div><hr>
-        <div><i class="fas fa-caret-right"></i> KHOA LÂM SÀN</div><hr>
-        <div><i class="fas fa-caret-right"></i> KHOA CẬN LÂM SÀN</div><hr>
-      </div>
-      <div class="col-md-4">
-        <h4>KHÁM CHỮA BỆNH</h4><hr>
-        <div><i class="fas fa-caret-right"></i> QUY TRÌNH</div><hr>
-        <div><i class="fas fa-caret-right"></i> LỊCH BÁC SĨ</div><hr>
-        <div><i class="fas fa-caret-right"></i> ĐĂNG KÝ KHÁM BỆNH</div><hr>
-        <div><i class="fas fa-caret-right"></i> THÔNG TIN DƯỢC</div><hr>
-      </div>
+    <footer class="footer-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 style="text-decoration: none !important;">BỆNH VIỆN<br><br> LIÊN HỆ: 090909090</h4>
+                    <div>Địa chỉ: Số 1, Nơ Trang Long, TPHCM</div>
+                    <hr>
+                    <div>Gmail: familyhospital@gmail.com</div>
+                    <hr>
+                    <div>Số điện thoại: 090909090</div>
+                    <hr>
+                </div>
+                <div class="col-md-4">
+                    <h4>GIỚI THIỆU</h4>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> TỔNG QUAN</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> PHÒNG CHỨC NĂNG</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> KHOA LÂM SÀN</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> KHOA CẬN LÂM SÀN</div>
+                    <hr>
+                </div>
+                <div class="col-md-4">
+                    <h4>KHÁM CHỮA BỆNH</h4>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> QUY TRÌNH</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> LỊCH BÁC SĨ</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> ĐĂNG KÝ KHÁM BỆNH</div>
+                    <hr>
+                    <div><i class="fas fa-caret-right"></i> THÔNG TIN DƯỢC</div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bar">
+        <div class="copyright"> Design by </div>
     </div>
-  </div>
-  </footer>
-  <div class="footer-bar">
-    <div class="copyright"> Design by </div>
-  </div>
 
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body></html>
+</body>
+
+</html>
