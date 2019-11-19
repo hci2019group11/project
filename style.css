@@ -47,3 +47,65 @@ div#navbar.navbar-collapse.collapse ul.dropdown-menu a:hover{
 background-color: #afe3fd;
 color: white;
 }
+/* HOIDAPCHUNG */
+.col-lg-9{
+  font-size: 15px;
+}
+.AQ{
+  padding: 20px;
+  border: 1px solid #cfcece;
+}
+.AQ div{
+  padding: 5px;
+}
+.AQ img{
+  width: 100%;
+}
+.AQ a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.expert{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.expert h4{
+  color: #337ab7;
+  font-weight: bold;
+}
+.form input,textarea,button{
+  width: 100%;
+  padding: 10px;
+}
+h3.advisory,.news{
+  padding: 5px;
+  background: #2698D6;
+  color: white;
+}
+li.sub{
+  background: #e6e5e5;
+  padding: 10px 15px;
+  list-style: none;
+}
+li.sub a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+li.sub a:hover{
+  color: #3696e8;
+}
+
+.news-group li{
+  list-style: none;
+  display: flex;
+}
+.news-group a{
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.news-group img{
+  width: 50%;
+}
