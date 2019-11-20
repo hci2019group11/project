@@ -1,5 +1,5 @@
 /* KHOALAMSAN */
-.bv:not(:last-of-type)::after{
+.bv:not(:last-of-type)::after {
   content: ' ';
   position: absolute;
   top: 50%;
@@ -9,38 +9,44 @@
   width: 2px;
   background-color: #4AAADE;
 }
-.card{
+
+.card {
   background: #e7e9eb;
   width: 100%;
-
 }
-.card img{
+
+.card img {
   width: 100%;
   height: 200px;
 }
-.card i{
+
+.card i {
   background: #2698D6;
   font-size: 20px;
   color: white;
   border-radius: 50%;
   padding: 20px;
 }
-.card a{
+
+.card a {
   text-decoration: none;
   cursor: pointer;
   padding: 5px;
   color: black;
 }
-.card li{
+
+.card li {
   list-style: none;
   display: flex;
   padding: 10px;
 }
-.col-lg-3{
+
+.col-lg-3 {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-.nav.nav-pills{
+
+.nav.nav-pills {
   padding: 20px;
   padding-left: 250px;
   position: relative;
