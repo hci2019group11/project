@@ -95,7 +95,7 @@ li.sub a{
 li.sub a:hover{
   color: #3696e8;
 }
-
+/*lien he*/
 .news-group li{
   list-style: none;
   display: flex;
@@ -205,5 +205,5 @@ li.sub a:hover{
     margin-bottom: 20px;
 }
 body {
-            font-size: 16px;
-        }
+  font-size: 16px;
+}
