@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
-    <title>PROJECT HCI2019GROUP11</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>PROJECT HCI2019GROUP11</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\bac-si.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +47,7 @@
         }
 
         .tab-content {
-            font-size: 18px;
+            
         }
 
         .col-lg-3 {
@@ -119,7 +121,7 @@
                             <li><a href="trogiup.html">Đặt câu hỏi</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -129,602 +131,578 @@
 
     <div class="container">
         <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#home">Khoa khám bệnh</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu1">Khoa phụ sản</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu2">Khoa nội</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu3">Khoa ngoại</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu4">Chẩn đoán hình ảnh</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu5">Mắt - Tai mũi họng</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu6">Khoa xét nghiệm</a>
-            </li>
-        </ul>
+  <style>
+    #thongtin {
+      display: flex;
+    }
+
+    #nav {
+      background-color: #d9edf7;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+
+    #info {
+      background-color: #2698D6;
+    }
+
+    #ti {
+      color: black;
+    }
+
+    #gt {
+      text-align: center;
+    }
+
+    #btnchitiet {
+      padding: 10px;
+      background-color: green;
+    }
+
+    .tab-content {
+      
+    }
+
+    .col-lg-3 {
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  </style>
+  <div class="container">
+    <div class="group-tabs">
+      <!-- Nav tabs -->
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="bv"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Khoa khám bệnh</a></li>
+        <li role="presentation" class="bv"><a href="#menu1" aria-controls="menu1" role="tab" data-toggle="tab">Khoa phụ sản</a></li>
+        <li role="presentation" class="bv"><a href="#menu2" aria-controls="menu2" role="tab" data-toggle="tab">Khoa nội</a></li>
+        <li role="presentation" class="bv"><a href="#menu3" aria-controls="menu3" role="tab" data-toggle="tab">Khoa ngoại</a></li>
+        <li role="presentation" class="bv"><a href="#menu4" aria-controls="menu4" role="tab" data-toggle="tab">Chẩn đoán hình ảnh</a></li>
+        <li role="presentation" class="bv"><a href="#menu5" aria-controls="menu5" role="tab" data-toggle="tab">Mắt-Tai mũi họng</a></li>
+        <li role="presentation" class="bv"><a href="#menu6" aria-controls="menu6" role="tab" data-toggle="tab">Khoa xét nghiệm</a></li>
+
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142579791_8609c38b4846c29819e219cca8ca3d7d.jpg" width="100%">
+                  <div class="card-body">
+
+                    <p>TTND.TS. Bác sỹ cao cấp</p>
+                    <a href="#">HOÀNG VĂN TUYẾT</a>
+                    <p>Trưởng khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-kim-ly.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN KIM LÝ</a>
+                    <p>Trưởng khoa cấp cứu</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/le-thuc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII Da liễu</p>
+                    <a href="#">LÊ THỰC</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/IMG_2287.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ Tim mạch</p>
+                    <a href="#">NGUYỄN VĂN TIẾN</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/IMG_2291.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII Da liễu</p>
+                    <a href="#">TRẦN THANH THẢO</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2018/03/Bs-Nguyen-Hong-Hanh-1.jpg" width="100%">
+                  <div class="card-body">
+                    <p>PGS.TS Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN HỒNG HẠNH</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-xuan-thuy.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ Nội tổng hợp</p>
+                    <a href="#">NGUYỄN XUÂN THỦY</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-thi-hong-ngoc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CK Nội tổng hợp</p>
+                    <a href="#">NGUYỄN HỒNG NGỌC</a>
+                    <p>Khoa khám bệnh</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu1">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142591023_3a84bff665b67954b36f6a82bc3217d1.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN ĐỨC THUẤN</a>
+                    <p>Trưởng khoa phụ sản</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/nguyen-huy-bao.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTND.TS.Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN HUY BẠO</a>
+                    <p>Khoa phụ sản</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/nguyen-van-vu.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN VĂN VŨ</a>
+                    <p>Khoa phụ sản</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-thi-bich-ngoc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN THỊ BÍCH NGỌC</a>
+                    <p>Khoa phụ sản</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu2">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142592706_3b9fe5ca32b3207282842c65b38d8415.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TS.Bác sỹ</p>
+                    <a href="#">LÊ NGỌC TRIỀU</a>
+                    <p>Trưởng khoa Nội</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN THỊ HỒNG</a>
+                    <p>Khoa Nội</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/dang-thi-kim-hoa.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN KIM HOA</a>
+                    <p>Khoa Nội</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-thi-bich-ngoc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN THỊ BÍCH NGỌC</a>
+                    <p>Khoa Nội</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu3">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/06/53ef3cb2f3e517bb4ef4.png" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.TS.Bác sỹ</p>
+                    <a href="#">HÀN VĂN BẠ</a>
+                    <p>Trưởng khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN THỊ HỒNG</a>
+                    <p>Khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/08/IMG_7440.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKII</p>
+                    <a href="#">TẠ DUY DŨNG</a>
+                    <p>Phó trưởng khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142595764_4baa9ced9756f284a799138e45f585bc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">PHẠM QUANG HÀ</a>
+                    <p>Khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu4">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142579993_989f9e9142ae4d3bee94be0929329b97.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">ĐOÀN VĨNH THÀNH</a>
+                    <p>Khoa CĐHA</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2018/03/z1344637552597_e3feb63ae37b9e594a85b1e32dda5d5b.png" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN PHƯƠNG ANH</a>
+                    <p>Khoa CĐHA</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/tathikimchinh.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKI</p>
+                    <a href="#">TẠ THỊ KIM CHINH</a>
+                    <p>Khoa CĐHA</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/hoang-trung-hieu.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">HOÀNG TRUNG HIẾU</a>
+                    <p>Khoa CĐHA</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu5">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142598963_eca81854f44a60359f9e3f9bc296ee2e.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN THU YẾN</a>
+                    <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/do-thi-thanh.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN THỊ THÀNH</a>
+                    <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-van-cuong.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKI</p>
+                    <a href="#">NGUYỄN VĂN CƯỜNG</a>
+                    <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/01/nguyen-thi-hoa.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ Răng hàm mặt</p>
+                    <a href="#">NGUYỄN THỊ HOA</a>
+                    <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="menu6">
+          <div class="container">
+            <div id="gt">
+              <h4>Đội ngũ bác sĩ</h4>
+              <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước
+                ngoài.</p>
+              <hr>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/06/53ef3cb2f3e517bb4ef4.png" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.TS.Bác sỹ</p>
+                    <a href="#">HÀN VĂN BẠ</a>
+                    <p>Trưởng khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">NGUYỄN THỊ HỒNG</a>
+                    <p>Khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/08/IMG_7440.jpg" width="100%">
+                  <div class="card-body">
+                    <p>TTUT.Bác sỹ CKII</p>
+                    <a href="#">TẠ DUY DŨNG</a>
+                    <p>Phó trưởng khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card">
+                  <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142595764_4baa9ced9756f284a799138e45f585bc.jpg" width="100%">
+                  <div class="card-body">
+                    <p>Bác sỹ CKII</p>
+                    <a href="#">PHẠM QUANG HÀ</a>
+                    <p>Khoa Ngoại</p>
+                    <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div id="home" class="container tab-pane active"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142579791_8609c38b4846c29819e219cca8ca3d7d.jpg" width="100%">
-                            <div class="card-body">
-
-                                <p>TTND.TS. Bác sỹ cao cấp</p>
-                                <a href="#">HOÀNG VĂN TUYẾT</a>
-                                <p>Trưởng khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-kim-ly.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN KIM LÝ</a>
-                                <p>Trưởng khoa cấp cứu</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/le-thuc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII Da liễu</p>
-                                <a href="#">LÊ THỰC</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/IMG_2287.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ Tim mạch</p>
-                                <a href="#">NGUYỄN VĂN TIẾN</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/10/IMG_2291.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII Da liễu</p>
-                                <a href="#">TRẦN THANH THẢO</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2018/03/Bs-Nguyen-Hong-Hanh-1.jpg" width="100%">
-                            <div class="card-body">
-                                <p>PGS.TS Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN HỒNG HẠNH</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-xuan-thuy.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ Nội tổng hợp</p>
-                                <a href="#">NGUYỄN XUÂN THỦY</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/nguyen-thi-hong-ngoc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CK Nội tổng hợp</p>
-                                <a href="#">NGUYỄN HỒNG NGỌC</a>
-                                <p>Khoa khám bệnh</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+  </div>
+  <footer class="footer-body" style="margin-top: 40px">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 style="text-decoration: none !important;">BỆNH VIỆN<br><br> LIÊN HỆ: 090909090</h4>
+          <div>Địa chỉ: Số 1, Nơ Trang Long, TPHCM</div>
+          <hr>
+          <div>Gmail: familyhospital@gmail.com</div>
+          <hr>
+          <div>Số điện thoại: 090909090</div>
+          <hr>
         </div>
-        <div id="menu1" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142591023_3a84bff665b67954b36f6a82bc3217d1.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN ĐỨC THUẤN</a>
-                                <p>Trưởng khoa phụ sản</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/nguyen-huy-bao.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTND.TS.Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN HUY BẠO</a>
-                                <p>Khoa phụ sản</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/nguyen-van-vu.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN VĂN VŨ</a>
-                                <p>Khoa phụ sản</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-thi-bich-ngoc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN THỊ BÍCH NGỌC</a>
-                                <p>Khoa phụ sản</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+        <div class="col-md-4">
+          <h4>GIỚI THIỆU</h4>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> TỔNG QUAN</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> PHÒNG CHỨC NĂNG</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> KHOA LÂM SÀN</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> KHOA CẬN LÂM SÀN</div>
+          <hr>
         </div>
-        <div id="menu2" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142592706_3b9fe5ca32b3207282842c65b38d8415.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TS.Bác sỹ</p>
-                                <a href="#">LÊ NGỌC TRIỀU</a>
-                                <p>Trưởng khoa Nội</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN THỊ HỒNG</a>
-                                <p>Khoa Nội</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/dang-thi-kim-hoa.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN KIM HOA</a>
-                                <p>Khoa Nội</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-thi-bich-ngoc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN THỊ BÍCH NGỌC</a>
-                                <p>Khoa Nội</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
+        <div class="col-md-4">
+          <h4>KHÁM CHỮA BỆNH</h4>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> QUY TRÌNH</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> LỊCH BÁC SĨ</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> ĐĂNG KÝ KHÁM BỆNH</div>
+          <hr>
+          <div><i class="fas fa-caret-right"></i> THÔNG TIN DƯỢC</div>
+          <hr>
         </div>
-        <div id="menu3" class="container tab-pane fade"><br>
-
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/06/53ef3cb2f3e517bb4ef4.png" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.TS.Bác sỹ</p>
-                                <a href="#">HÀN VĂN BẠ</a>
-                                <p>Trưởng khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN THỊ HỒNG</a>
-                                <p>Khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/08/IMG_7440.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKII</p>
-                                <a href="#">TẠ DUY DŨNG</a>
-                                <p>Phó trưởng khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142595764_4baa9ced9756f284a799138e45f585bc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">PHẠM QUANG HÀ</a>
-                                <p>Khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="menu4" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/02/z1277142579993_989f9e9142ae4d3bee94be0929329b97.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">ĐOÀN VĨNH THÀNH</a>
-                                <p>Khoa CĐHA</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2018/03/z1344637552597_e3feb63ae37b9e594a85b1e32dda5d5b.png" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN PHƯƠNG ANH</a>
-                                <p>Khoa CĐHA</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/tathikimchinh.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKI</p>
-                                <a href="#">TẠ THỊ KIM CHINH</a>
-                                <p>Khoa CĐHA</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/hoang-trung-hieu.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">HOÀNG TRUNG HIẾU</a>
-                                <p>Khoa CĐHA</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="menu5" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142598963_eca81854f44a60359f9e3f9bc296ee2e.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN THU YẾN</a>
-                                <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/do-thi-thanh.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN THỊ THÀNH</a>
-                                <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/bac-sy-nguyen-van-cuong.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN VĂN CƯỜNG</a>
-                                <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/01/nguyen-thi-hoa.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ Răng hàm mặt</p>
-                                <a href="#">NGUYỄN THỊ HOA</a>
-                                <p>Liên Chuyên khoa Mắt - TMH - RHM</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div id="menu6" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/06/53ef3cb2f3e517bb4ef4.png" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.TS.Bác sỹ</p>
-                                <a href="#">HÀN VĂN BẠ</a>
-                                <p>Trưởng khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/IMG_2237.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">NGUYỄN THỊ HỒNG</a>
-                                <p>Khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/08/IMG_7440.jpg" width="100%">
-                            <div class="card-body">
-                                <p>TTUT.Bác sỹ CKII</p>
-                                <a href="#">TẠ DUY DŨNG</a>
-                                <p>Phó trưởng khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142595764_4baa9ced9756f284a799138e45f585bc.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKII</p>
-                                <a href="#">PHẠM QUANG HÀ</a>
-                                <p>Khoa Ngoại</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="menu4" class="container tab-pane fade"><br>
-            <div class="container">
-                <div id="gt">
-                    <h4>Đội ngũ bác sĩ</h4>
-                    <p>Bệnh viện Đa khoa Gia Định quy tụ đội ngũ chuyên gia, giáo sư, bác sĩ đầu ngành, có nhiều năm kinh nghiệm công tác tại các bệnh viện tuyến đầu trong cả nước và tu nghiệp tại các trung tâm chăm sóc sức khỏe, bệnh viện lớn ở nước ngoài.</p>
-                    <hr>
-                </div>
-                <div class="row" style="margin-top: 10px;">
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/ngo-quang-minh.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ </p>
-                                <a href="#">NGÔ QUANG MINH</a>
-                                <p>Khoa Xét nghiệm</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/01/z1277142578277_1b12da0edf39e5070fe641c1eab6eb79.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ CKI</p>
-                                <a href="#">NGUYỄN THỊ KIM YẾN</a>
-                                <p>Khoa Xét nghiệm</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2019/03/tathikimchinh.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ</p>
-                                <a href="#">TẠ THỊ KIM CHINH</a>
-                                <p>Khoa Xét nghiệm</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="card">
-                            <img src="https://benhvienphuongdong.vn/wp-content/uploads/2017/03/hoang-trung-hieu.jpg" width="100%">
-                            <div class="card-body">
-                                <p>Bác sỹ</p>
-                                <a href="#">HOÀNG TRUNG HIẾU</a>
-                                <p>Khoa Xét nghiệm</p>
-                                <button type="button" class="btn btn-success" style="width: 100%">Xem lịch làm việc chi tiết</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </footer>
+  <div class="footer-bar">
+    <div class="copyright"> Design by </div>
+  </div>
 
 
-    <footer class="footer-body" style="margin-top: 40px">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4 style="text-decoration: none !important;">BỆNH VIỆN<br><br> LIÊN HỆ: 090909090</h4>
-                    <div>Địa chỉ: Số 1, Nơ Trang Long, TPHCM</div>
-                    <hr>
-                    <div>Gmail: familyhospital@gmail.com</div>
-                    <hr>
-                    <div>Số điện thoại: 090909090</div>
-                    <hr>
-                </div>
-                <div class="col-md-4">
-                    <h4>GIỚI THIỆU</h4>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> TỔNG QUAN</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> PHÒNG CHỨC NĂNG</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> KHOA LÂM SÀN</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> KHOA CẬN LÂM SÀN</div>
-                    <hr>
-                </div>
-                <div class="col-md-4">
-                    <h4>KHÁM CHỮA BỆNH</h4>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> QUY TRÌNH</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> LỊCH BÁC SĨ</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> ĐĂNG KÝ KHÁM BỆNH</div>
-                    <hr>
-                    <div><i class="fas fa-caret-right"></i> THÔNG TIN DƯỢC</div>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="footer-bar">
-        <div class="copyright"> Design by </div>
-    </div>
-
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,87 @@
+.content-format h3{
+  font-weight: 700;
+  font-size: 20px;
+  color: #17a2b8;
+  margin-bottom: 20px;
+}
+.content-format ul{
+  column-count: 2;
+  column-gap: 6%;
+  list-style: none;
+}
+.content-format ul li {
+  padding-left: 43px;
+  background-image: url(https://img.icons8.com/dusk/32/000000/ok.png);
+  background-position: left center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  line-height: 18px;
+  margin-bottom: 17px;
+  color: #5d5d5d;
+  padding: 9px 0 9px 43px;
+  display: inline-block;
+}
+.content-format p {
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.form-question {
+  overflow-x: hidden;
+}
+.form-question .form-info {
+  padding: 12px 0 39px;
+}
+.form-question .it-form {
+  margin-bottom: 14px;
+}
+.form-question .it-form .it-text {
+  border: 2px solid #bebebe;
+}
+.form-question .it-form .it-text {
+  width: 100%;
+  height: 45px;
+  color: #6d6d6d;
+  padding: 5px 15px;
+  border: 2px solid #d7d7d7;
+  outline: 0;
+}
+.form-question .it-form textarea.it-text {
+  height: 104px;
+}
+.form-question .it-form select {
+  width: 100%;
+  height: 45px;
+  color: #6d6d6d;
+  padding: 5px 10px;
+  border: 2px solid #bebebe;
+  outline: 0;
+  font-weight: 500;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(https://img.icons8.com/small/16/000000/expand-arrow.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 98% center;
+  cursor: pointer;
+}
+button, select {
+  text-transform: none;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.form-question .send-now {
+  width: 100%;
+  height: 54px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #17a2b8;
+  outline: 0;
+  border-color: transparent;
+  font-weight: 500;
+  margin: 7px 0 10px;
+}
