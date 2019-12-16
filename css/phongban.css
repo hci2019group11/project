@@ -8,7 +8,7 @@
   padding-left: 30px;
 }
 .dropdown-menu a{
-  background-color: #2BB2E0;
+  background-color: #d9edf7;
 }
 #navbar {
   position: sticky;
@@ -21,14 +21,14 @@
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #31708f;
   text-align: center;
   padding: 15px;
   text-decoration: none;
   font-size: 17px;
 }
 #navbar a:hover {
-  background-color: #2476A7;
+  background-color: #afe3fd;
 }
 #header a{
   font-size: 20px;
@@ -61,17 +61,6 @@
 #title a i:hover{
   font-size: 20px;
 }
-.footer {
-   padding-top: 15px;
-   width: 100%;
-   height: 60px;
-   background-color: #DDDDDD;
-   color: #292929;
-   text-align: center;
-}
-.footer p a{
-  text-decoration: none;
-}
 .card-img-top{
   width: 100%;
   height: 250px;
@@ -86,4 +75,14 @@
 }
 #icon{
   font-size: 35px;
+}
+.footer-bar{
+  background-color: #31708f;
+  width: 100%;
+  height: 50px;
+}
+.copyright{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
