@@ -8,14 +8,14 @@ footer {
 }
 
 footer.footer-body {
-	background-color: #0c85c7
+	background-color: #0c85c7;
 
 }
 
 footer.footer-body h4 {
 	color: white;
 	font-weight: bold;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 footer.footer-body i {
@@ -25,7 +25,10 @@ footer.footer-body i {
 div.col-md-3 {
 	text-align: left;
 	color:white;
-  padding: 50px;
+  padding: 40px;
+}
+div.end-footer{
+  padding-bottom: 5px;
 }
 div.copyright{
   text-align: center;
@@ -33,23 +36,24 @@ div.copyright{
   padding-bottom: 10px;
 }
 div#navbar{
-  background-color: #d9edf7;
+  background-color: #0c85c7;
+  padding: 10px;
 }
 div#navbar.navbar-collapse.collapse a{
-  color: #31708f;
+  color: white;
   font-weight: bold;
 }
 div#navbar.navbar-collapse.collapse li:hover{
-  background-color: #afe3fd;
+  background-color: #01486f;
 }
 div#navbar.navbar-collapse.collapse ul.dropdown-menu{
-background-color: #d9edf7;
+background-color: #0c85c7;
 }
 div#navbar.navbar-collapse.collapse ul.dropdown-menu a{
 font-weight: lighter;
 }
 div#navbar.navbar-collapse.collapse ul.dropdown-menu a:hover{
-background-color: #afe3fd;
+background-color: #01486f;
 color: white;
 }
 /* HOIDAPCHUNG & TIEMCHUNG */
