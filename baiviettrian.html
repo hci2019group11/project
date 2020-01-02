@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\khoa-lam-san.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -18,22 +18,22 @@
         #thongtin {
             display: flex;
         }
-
         #nav {
-            background-color: #ffffff;
+            background-color: #d9edf7;
         }
-
         .carousel-inner img {
             width: 100%;
             height: 100%;
         }
-
         #info {
             background-color: #2698D6;
         }
-
         #ti {
             color: black;
+        }
+		 #info2 {
+            background-color: #2698D6;
+			width: 300px;
         }
     </style>
     <img src="https://familyhospital.vn/wp-content/themes/Newspaper-child/images/BANNER.jpg" style="width:100%;">
@@ -54,8 +54,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Giới thiệu <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Tổng quan</a></li>
-                            <li><a href="#">Sơ đồ tổ chức</a></li>
+                            <li><a href="">Tổng quan</a></li>
+                            <li><a href="sodotochuc.html">Sơ đồ tổ chức</a></li>
                             <li><a href="bangiamdoc.html">Ban giám đốc</a></li>
                             <li><a href="gioithieubacsi.html">Bác sĩ</a></li>
                             <li><a href="phongban.html">Phòng chức năng</a></li>
@@ -66,25 +66,25 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khám chữa bệnh <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Tìm bác sĩ</a></li>
-                            <li><a href="lichkham.html">Lịch khám bệnh</a></li>
-                            <li><a href="#">Lịch công tác</a></li>
-                            <li><a href="#">Thông tin khám bệnh ngoại trú</a></li>
-                            <li><a href="#">Quy trình</a></li>
-                            <li><a href="#">Bảng giá thu lệ phí</a></li>
-                            <li><a href="#">Danh mục kỹ thuật</a></li>
+                          <li><a href="lichkham.html">Lịch khám bệnh</a></li>
+                            <li><a href="#">Tìm bác sĩ (Đang cập nhật)</a></li>
+                            <li><a href="#">Lịch công tác (Đang cập nhật)</a></li>
+                            <li><a href="#">Thông tin khám bệnh ngoại trú (Đang cập nhật)</a></li>
+                            <li><a href="#">Quy trình (Đang cập nhật)</a></li>
+                            <li><a href="#">Bảng giá thu lệ phí (Đang cập nhật)</a></li>
+                            <li><a href="#">Danh mục kỹ thuật (Đang cập nhật)</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Tin tức</a></li>
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hoạt động <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Chuyên môn</a></li>
-                            <li><a href="#">Đào tạo</a></li>
-                            <li><a href="#">Nghiên cứu khoa học</a></li>
-                            <li><a href="#">Thông tin thuốc - Dược lâm sàng</a></li>
-                            <li><a href="#">Quản lí chất lượng, an toàn người bệnh</a></li>
                             <li><a href="trian.html">Tri ân</a></li>
+                            <li><a href="#">Chuyên môn (Đang cập nhật)</a></li>
+                            <li><a href="#">Đào tạo (Đang cập nhật)</a></li>
+                            <li><a href="#">Nghiên cứu khoa học (Đang cập nhật)</a></li>
+                            <li><a href="#">Thông tin thuốc - Dược lâm sàng (Đang cập nhật)</a></li>
+                            <li><a href="#">Quản lí chất lượng, an toàn người bệnh (Đang cập nhật)</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -98,7 +98,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hỏi đáp <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Hỏi đáp sức khỏe</a></li>
+                            <li><a href="#">Hỏi đáp sức khỏe (Đang cập nhật)</a></li>
                             <li><a href="trogiup.html">Đặt câu hỏi</a></li>
                         </ul>
                     </li>
@@ -109,93 +109,27 @@
         </div>
         <!--/.container-fluid -->
     </nav>
+	<div class="container">
+        <div clas="row">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\tim.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Khoa sinh huyết học</a></li>
-              </h5>
-            </div>
-          </div>
+          <p><b>Bệnh nhân khoa khoa Ngoại tổng quát cảm ơn bác sĩ Nguyễn Thế Toàn đã điều trị hết lòng, tận tụy, đầy tinh thần trách nhiệm. </b></p>
+          <img src="https://familyhospital.vn/wp-content/uploads/2019/04/Ngo-Truong-Nhut-718x1024.jpg" alt="anhcamcon" style="margin-left:100px;">
+          <p style="margin-top:20px; margin-bottom:10px">Tôi tên là Ngô Tường Nhựt </p>
+          <p>Ngày 23/4/2019 tôi nhập viện để mổ nội soi cắt túi mật tại khoa B2A - Ngoại tổng quát - Khu A.
+            Bác sĩ Nguyễn Thế Toàn là người trực tiếp mổ và điều trị cho tôi. Trong suốt quá trình từ lúc nhập viện,
+            xét nghiệm, tiến hành mổ cho đến lúc xuất viện ngày 26/4/2019,
+            tôi đã nhận được sự tư vấn nhiệt tình cũng như điều trị tận tụy, hết lòng,
+            đầy tinh thần trách nhiệm của bác sĩ Nguyễn Thế Toàn và các y tá điều dưỡng khoa Ngoại tổng quát. </p>
+            <p style="margin-top:15px;">Tôi viết thư này, trước hết là mong muốn gửi lời cám ơn đến bác sĩ Nguyễn Thế Toàn và các y tá điều dưỡng của khoa.
+             Đồng thời tôi hi vọng Ban Giám đốc Bệnh viện biết được rằng, trước áp lực công việc và quá tải của điều kiện
+             làm việc, sự tận tâm quên mình của bác sĩ Toàn và các y tá điều dưỡng chính là liều thuốc quý giá nhất cho bệnh nhân
+             chúng tôi mau lành bệnh. Đồng thời chính là lý do để chúng tôi nghĩ về Bệnh viện với sự an tâm và
+             đặt trọn niềm tin. </p>
+             <p style="margin-top:15px; margin-bottom:50px">Xin chân thành cám ơn và xin chúc sức khỏe bác sĩ Toàn,
+              các y tá, điều dưỡng và Ban Giám đốc Bệnh viện. </p>
         </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\tieuhoa.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Chẩn đoán hình ảnh</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\hoisuc.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-microscope"></i> <a>Khoa vi sinh</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\laohoc.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-blind"></i> <a>Khoa dược</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\noihohap.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Khoa nội soi - thăm dò chức năng</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\than.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Khoa dinh dưỡng</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\thankinh.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Khoa giải phẫu bệnh lý</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card" style="width: 100%;">
-            <img class="card-img-top" src="img\noitim.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">
-                <li><i class="fas fa-heartbeat"></i> <a>Khoa kiểm soát nhiễm khuẩn</a></li>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
     <footer class="footer-body">
       <div class="container">
         <div class="row">
@@ -233,6 +167,8 @@
         <div class="copyright">copyright@hci2019group11</div>
       </div>
     </footer>
+
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
